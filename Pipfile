@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pandas = "*"
+tensorflow = {version = "<=1.12.0",markers = "python_version <= '3.6.0'",index = "pypi"}
+sklearn = "*"
+matplotlib = '*'
+pandas_datareader = '*'
+jupyter = "*"
+yahoo-finance = "*"
+quandl = "*"
+
+[requires]
+python_version = "3.7"
